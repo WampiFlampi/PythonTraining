@@ -5,3 +5,4 @@ def philpap():
     print('Your number is Even')
   else:
     print('Your number is Odd')
+philpap()

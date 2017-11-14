@@ -11,7 +11,8 @@ def yes():
             y=int(x)%elem
             if y==0:
                 print (elem)
-    if int(x) <= -1:
+        yes()
+    elif int(x) <= -1:
         a = range(1,int(x)*-1+1)
         b = range(int(x),0)
         for elem in b:
@@ -22,4 +23,10 @@ def yes():
             y=int(x)%elem
             if y==0:
                 print (elem)
+        yes()
+    else:
+        print('Insolent Fool')
+        yes()
+        
 yes()
+

@@ -1,5 +1,5 @@
 def yes():
-    x = input("Enter any interger to see it's divisors:")
+    x = input("Enter any interger to see its divisors:")
     if int(x) >= 1:
         a = range(1,int(x)+1)
         b = range(int(x)*-1,0)

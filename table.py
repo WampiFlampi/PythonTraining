@@ -21,3 +21,11 @@ def yes():
 yes()
 
 
+
+#Table code but better
+list1=range(1,50)
+iter1=iter(list1)
+for elem in list1:
+  print (iter1.__next__(),iter1.__next__(),sep=' ',end="",flush="true")
+
+

@@ -12,7 +12,19 @@ def yes():
     for a,b in zip(list2,list3):
         print(a,b)
 
-
+list1=range(1,3)
+list2=[]
+list3=[]
+for elem in list1:
+    user=input('Your Name:')
+    score=input('Your score:')
+    list2.append(user)
+    list3.append(score)
+    print ("\n" * 1)
+for a in list2:
+  print(a,sep=" ",end='',flush=False)
+for b in list3:
+  print(a,sep=' ',end='',flush=False)
 
 
 

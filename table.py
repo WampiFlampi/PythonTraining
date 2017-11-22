@@ -41,3 +41,30 @@ for elem in list1:
   print (iter1.__next__(),iter1.__next__(),sep=' ',end="",flush="true")
 
 
+list1=range(1,3)
+list2=[]
+list3=[]
+list4=[]
+list5=[]
+stat=1 
+stat1=1
+for elem in list1:
+    user=input('Your Name:')
+    score=str(input('Your score:'))
+    list2.append(user)
+    list3.append(score)
+    print ("\n" * 1)
+for elem in list2
+  for t in elem:
+    space=stat += 1
+    list4.append(space)
+for elem in list3:
+  for q in elem:
+    spacer=stat1 += 1
+    list5.append(spacer)
+iter1=iter(list4)
+iter2=iter(list5)
+for a in list2:
+  print(a,sep=" ",end='',flush=False)
+for b in list3:
+  print(b,sep=' ',end='',flush=False)

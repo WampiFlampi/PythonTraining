@@ -12,5 +12,4 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 https://media.readthedocs.org/pdf/requests/master/requests.pdf
 
 
-<style>h1{color:purple;}</style>
-<h1><marquee>attempiting</marquee><h1>
+<h1><font color='purple'>ATTeMPTiTing</font></h1>

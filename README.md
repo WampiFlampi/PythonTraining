@@ -8,3 +8,9 @@ http://www.practicepython.org
 https://repl.it/repls/BitesizedFrighteningAlaskanhusky
 <br>
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+<br>
+https://media.readthedocs.org/pdf/requests/master/requests.pdf
+
+
+<style>h1{color:purple;}</style>
+<h1><marquee>attempiting</marquee><h1>

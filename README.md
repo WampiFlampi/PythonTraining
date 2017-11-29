@@ -1,5 +1,8 @@
 # PythonTraining
-I am attempiting to learn python. 
+I am attempting to learn python.
+<br>
+References and Reasources:
+<br>
 http://www.practicepython.org
 <br>
 https://repl.it/repls/BitesizedFrighteningAlaskanhusky

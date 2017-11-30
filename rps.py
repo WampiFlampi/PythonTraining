@@ -1,29 +1,33 @@
 import random
-stop = False
-print("Rock Paper Scissors Time!")
-while stop == False:
-  opponent = random.choice(["Rock","Paper","Scissors"])
-  user = input('Put in your move! (Rock, Paper, or Scissors)').lower()
-  if user == "rock" and opponent == "Scissors":
-    print("The opponent picked Scissors! You win!")
-  elif user == "rock" and opponent == "Paper":
-    print("The opponent picked Paper! You lose!")
-  elif user == "rock" and opponent == "Rock":
-    print("The opponent picked Rock as well! You tie!")
-  elif user == "paper" and opponent == "Scissors":
-    print("The opponent picked Scissors! You lose!")
-  elif user == "paper" and opponent =="Rock":
-    print("The opponent picked Rock! You win!")
-  elif user == "paper" and opponent == "Paper":
-    print("The opponent picked Paper as well! You tie!")
-  elif user == "scissors" and opponent == "Paper":
-    print("The opponent picked Paper! You win!")
-  elif user == "scissors" and opponent == "Rock":
-    print("The opponent picked Rock! You win!")
-  elif user =="scissors" and opponent == "Scissors":
-    print("The opponent picked Scissors as well! You tie!")
-  chk = input('Would you like to play again? (Yes, No)').lower()
-  if chk == "yes":
-    stop = False
+
+opt_text = '''Select Rock, Paper or Scissors:
+[0]: Rock
+[1]: Paper
+[2]: Scissors
+Selection:'''
+def option ():
+  opt = None
+  try:
+    opt = int(input(opt_text))
+  except ValueError:
+    print('\nInvalid Number')
+    return option()
+  if opt < 0 or opt > 2:
+    print('\nNumber must be between 0 and 2')
+    return option()
+  return opt
+
+def start ():
+  opponent = random.randint(0, 2)
+  selection = option()
+  if selection == opponent:
+    return '\nYou tied\n'
+  elif (opponent > selection and not (selection == 0 and opponent == 2)) or (selection == 2 and opponent == 0):
+    return '\nYou lost\n'
   else:
-    stop = True
+    return '\nYou won\n'
+
+while True:
+  print(start())
+  if input('Play again? Press [n] to stop.').lower() == 'n':
+      break

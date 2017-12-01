@@ -10,4 +10,7 @@ https://repl.it/repls/BitesizedFrighteningAlaskanhusky
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 <br>
 https://media.readthedocs.org/pdf/requests/master/requests.pdf
-
+<br>
+https://reactjs.org/
+<br>
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript

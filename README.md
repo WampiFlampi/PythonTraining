@@ -1,4 +1,4 @@
-# PythonTraining
+# CodingTraining
 I am attempting to learn python.
 <br>
 References and Reasources:
@@ -14,3 +14,5 @@ https://media.readthedocs.org/pdf/requests/master/requests.pdf
 https://reactjs.org/
 <br>
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+<br>
+https://javascript.info

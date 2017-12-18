@@ -18,3 +18,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_Jav
 https://javascript.info
 <br>
 https://codesandbox.io
+<br>
+https://codeburst.io/es6-tutorial-for-beginners-5f3c4e7960be
+<br>

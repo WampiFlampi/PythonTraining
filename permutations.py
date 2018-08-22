@@ -1,0 +1,44 @@
+print("Welcome to my Python Permutation Generator")
+targetPrime = input("Type your desired characters to be permutatated:")
+bigBigLargeList = []
+cycleList = []
+switch = 0
+for elem in targetPrime:
+  cycleList.append(elem)
+for target in targetPrime: 
+  shift = cycleList[switch]
+  cycleList.remove(shift)
+  cycleList.insert(0,shift)
+  switch = switch + 1
+  storeList = []
+  nonList = []
+  goalReached = False
+  storeList.append(target)
+  ticker = 0
+  while goalReached == False:
+    tocker = 0
+    current = storeList[0]+cycleList[ticker]
+    if cycleList[ticker] in list(storeList[0]):
+      tocker = tocker + 1
+    elif current not in nonList:
+        nonList.append(current)
+    if ticker == len(cycleList) - 1:
+      del storeList[0]
+      storeList.extend(nonList)
+      nonList = []
+      ticker = 0
+    if len(storeList[0]) == len(targetPrime):
+        bigBigLargeList.extend(storeList) 
+        goalReached = True
+        
+       
+      
+    ticker = ticker + 1
+for val in bigBigLargeList:
+  print(val)
+    
+
+
+  
+  
+    
